@@ -1,0 +1,7 @@
+@import '../../mixins';
+
+@include basicStyles(#b52b65);
+
+:host {
+  width: calc(100% - 5px);
+}

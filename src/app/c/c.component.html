@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="box">
+    <span class="label">Comp: C</span>
+    <span class="count">Count: {{count}}</span>
+    <span class="count">Tm-Count: {{tmCount}}</span>
+    <button (click)="click($event)">click</button>
+  </div>
+  <f-component [parentCount]="count"></f-component>
+  <!-- <f-component></f-component> -->
+  <g-component></g-component>
+</div>

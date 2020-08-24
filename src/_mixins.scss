@@ -1,0 +1,13 @@
+@mixin basicStyles($color) {
+  :host {
+    display: flex;
+    width: calc(50% - 5px);
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: auto;
+  }
+
+  .box {
+    background: $color;
+  }
+}
